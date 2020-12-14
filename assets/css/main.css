@@ -1,0 +1,46 @@
+body {
+  height: 100vh;
+
+  background-image: url("../images/laptop-coffee.jpg");
+  background-position: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* this is the header of the website, this will appear on every part of the site.*/
+nav ul {
+  list-style: none;
+}
+
+.body-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(238, 93, 93);
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* both .java-download and .big-button are within a regular div tag*/
+.java-download { /* this is list element*/
+  
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.big-button { /* this is the "a" element*/
+  border: solid rgb(238, 93, 93) 5px;
+  border-radius: 4px;
+  color: white;
+  background-color: rgb(238, 93, 93);
+
+  font-style: none;
+  text-decoration: none;
+  font-size: 44px;
+  
+}
+
