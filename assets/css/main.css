@@ -9,13 +9,34 @@ body {
 /* this is the header of the website, this will appear on every part of the site.*/
 nav ul {
   list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: rgb(238, 93, 93);
+}
+
+
+
+a  {
+  text-decoration: none;
+  color: white;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
 }
 
 .body-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:rgb(238, 93, 93);
+  background-color:white;
+}
+
+.text-container {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: black;
 }
 .java-logo{
   color: white;
@@ -46,6 +67,8 @@ div {
   font-style: none;
   text-decoration: none;
   font-size: 44px;
-  
+  font-family: 'Montserrat', sans-serif;
+
+  padding: 4px;
 }
 
