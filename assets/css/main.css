@@ -5,6 +5,8 @@ body {
   background-position: cover;
   background-size: 100%;
   background-repeat: no-repeat;
+
+  margin: 0;
 }
 /* this is the header of the website, this will appear on every part of the site.*/
 header {
