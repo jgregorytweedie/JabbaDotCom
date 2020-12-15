@@ -1,0 +1,146 @@
+html {
+  height:100vh;
+  margin: 0;
+}
+
+body {
+
+  background-image: url("../images/laptop-coffee.jpg");
+  background-position: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0;
+  
+}
+
+/* this is the header of the website, this will appear on every part of the site.*/
+header {
+  padding-bottom: 3em;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em;
+ 
+  margin: 0;
+  background-color:rgb(39, 39, 39);
+}
+
+nav ul li {
+  padding: 1em;
+}
+
+a  {
+  text-decoration: none;
+  color: white;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  transition: all .4s;
+}
+a:hover {
+  color:rgb(238, 93, 93);
+  width: 60%;
+  height: 60%; 
+  transform: scale(1.1);
+
+} 
+a:active {
+color: white;
+}
+.nav-logo {
+  color: white;
+}
+/* text content*/
+.text {
+  margin: auto;
+}
+
+.text h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  color: white;
+  font-size: 44px;
+  font-family: 'Montserrat', sans-serif;
+}
+.text p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  color: white;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+/*button!!!*/
+.java-download { /* this is the list element*/
+  
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5em;
+  margin: auto;
+  
+}
+.big-button { /* this is the "a" element*/
+  background-color:rgb(238, 93, 93);
+  border: solid 6px rgb(238, 93, 93);
+  border-radius: 4px;
+  color: white;
+  
+  font-style: none;
+  text-decoration: none;
+  font-size: 44px;
+  font-family: 'Montserrat', sans-serif;
+
+  padding: 4px;
+}
+.big-button:hover {
+  background-color: white;
+  border: solid 6px white;
+  border-radius: 4px;
+}
+
+.agreement-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  color: white;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.footer-global {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  list-style-type: none;
+  text-decoration: none;
+  
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 90px;
+
+  background-color:rgb(39, 39, 39);
+  
+}
+.footer-ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 2em;
+}
+
+.footer-ul li {
+  padding: 2em;
+}

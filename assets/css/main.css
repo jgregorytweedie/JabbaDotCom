@@ -1,3 +1,5 @@
+
+
 html {
   height:100vh;
   margin: 0;
@@ -12,6 +14,7 @@ body {
   margin: 0;
   
 }
+
 /* this is the header of the website, this will appear on every part of the site.*/
 header {
   padding-bottom: 3em;
@@ -59,6 +62,9 @@ color: white;
   color: white;
   
 }
+.nav-logo {
+  color: white;
+}
 
 
 div {
@@ -67,7 +73,7 @@ div {
   align-items: center;
 }
 /* both .java-download and .big-button are within a regular div tag*/
-.java-download { /* this is list element*/
+.java-download { /* this is the list element*/
   
   list-style-type: none;
   display: flex;
@@ -78,22 +84,30 @@ div {
   
 }
 .big-button { /* this is the "a" element*/
-  border: solid rgb(238, 93, 93) 5px;
+  background-color:rgb(238, 93, 93);
   border-radius: 4px;
   color: white;
-  background-color: rgb(238, 93, 93);
-
+  
   font-style: none;
   text-decoration: none;
   font-size: 44px;
   font-family: 'Montserrat', sans-serif;
 
   padding: 4px;
+  transition: all 1s ease;
+  transform: scale(1);
+  
 }
 
 .big-button:hover {
-  color: white;
-  border: solid 6px lightpink;
+  color: pink;
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: 3s ease alternate infinite;
+  background-size: 300% 300%;
+
+  transform: scale(1.5) perspective(1px);
 }
 
 .footer-global {
