@@ -39,7 +39,7 @@ a:active {
 color: white;
 }
 
-
+/*This is the main text content on the page*/
 .text-container {
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
@@ -82,4 +82,20 @@ div {
 .big-button:hover {
   color: white;
   border: solid 6px lightpink;
+}
+.footer-global {
+  display: flex;
+  
+  justify-content: space-evenly;
+  align-items: center;
+
+  list-style-type: none;
+  text-decoration: none;
+
+  background-color:rgb(39, 39, 39);
+}
+.footer-ul {
+  list-style-type: none;
+  text-decoration: none;
+ 
 }
