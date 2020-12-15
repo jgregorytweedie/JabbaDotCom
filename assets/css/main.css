@@ -10,9 +10,9 @@ body {
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-
+  flex: 1;
   background-color: rgb(39, 39, 39);
 }
 
@@ -85,7 +85,7 @@ div {
 }
 .footer-global {
   display: flex;
-  
+  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 
@@ -97,5 +97,5 @@ div {
 .footer-ul {
   list-style-type: none;
   text-decoration: none;
- 
+  flex-direction: row;
 }
