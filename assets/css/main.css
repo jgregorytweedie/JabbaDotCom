@@ -13,10 +13,12 @@ nav ul {
   justify-content: space-evenly;
   align-items: center;
 
-  background-color: rgb(238, 93, 93);
+  background-color: rgb(39, 39, 39);
 }
 
-
+nav a {
+  text-align: center;
+}
 
 a  {
   text-decoration: none;
@@ -24,19 +26,24 @@ a  {
 
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
+  transition: all .4s;
+}
+a:hover {
+  color:rgb(238, 93, 93);
+  width: 60%;
+  height: 60%; 
+  transform: scale(1.1);
+
+} 
+a:active {
+color: white;
 }
 
-.body-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color:white;
-}
 
 .text-container {
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
-  color: black;
+  color: white;
 }
 .java-logo{
   color: white;
@@ -72,3 +79,7 @@ div {
   padding: 4px;
 }
 
+.big-button:hover {
+  color: white;
+  border: solid 6px lightpink;
+}
