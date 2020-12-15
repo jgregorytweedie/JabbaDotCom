@@ -1,23 +1,28 @@
+html {
+  height:100vh;
+  margin: 0;
+}
+
 body {
-  height: 100vh;
 
   background-image: url("../images/laptop-coffee.jpg");
   background-position: cover;
   background-size: 100%;
   background-repeat: no-repeat;
-
   margin: 0;
+  
 }
 /* this is the header of the website, this will appear on every part of the site.*/
 header {
-  width: 100%;
+  padding-bottom: 3em;
 }
 nav ul {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
-  padding: 3.5em;
-
+  padding: 1em;
+ 
+  margin: 0;
   background-color:rgb(39, 39, 39);
 }
 
@@ -47,7 +52,7 @@ color: white;
 /*This is the main text content on the page*/
 .text-container {
   font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   color: white;
 }
 .java-logo{
@@ -90,21 +95,34 @@ div {
   color: white;
   border: solid 6px lightpink;
 }
+
 .footer-global {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  
+  justify-content: center;
   align-items: center;
-
+  padding: 5px;
   list-style-type: none;
   text-decoration: none;
+  
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 90px;
 
   background-color:rgb(39, 39, 39);
   
 }
 .footer-ul {
+  display: flex;
+  justify-content: space-between;
   list-style-type: none;
   text-decoration: none;
-  flex-direction: row;
-  padding: 2.5em;
+  margin: 0;
+  padding: 2em;
+}
+
+.footer-ul li {
+  padding: 2em;
 }
