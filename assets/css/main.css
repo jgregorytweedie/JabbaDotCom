@@ -7,17 +7,29 @@ body {
   background-repeat: no-repeat;
 }
 /* this is the header of the website, this will appear on every part of the site.*/
-nav ul {
-  list-style: none;
+nav ul { 
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex: 1;
-  background-color: rgb(39, 39, 39);
+  justify-content: space-evenly;
+
+  padding-left: 0;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  list-style-type: none;
+
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  background: rgb(39, 39, 39);
 }
 
+nav ul li {
+text-align: center;
+}
+/* gotta use good ol' psuedo elements for my navigation bar*/
 nav a {
-  text-align: center;
+color: white;
+display: block;
+padding: 1em;
+text-decoration: none;
+
 }
 
 a  {
