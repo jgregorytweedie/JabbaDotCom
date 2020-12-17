@@ -1,0 +1,20 @@
+{
+  "name": "jabbadotcom",
+  "version": "1.0.0",
+  "description": "This site is intended to make a prettier and more optimized version of www.java.com. \r This is not for monetary purposes, it's just simply a fun project I've wanted to do for awhile.\r ## Attributions\r Homepage background image: https://unsplash.com/photos/8LBLGdiKcu0 by Abdelrahman Sobhy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgregorytweedie/JabbaDotCom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgregorytweedie/JabbaDotCom/issues"
+  },
+  "homepage": "https://github.com/jgregorytweedie/JabbaDotCom#readme"
+}
