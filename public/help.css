@@ -5,7 +5,7 @@ html {
 
 body {
 
-  background-image: url("../images/laptop-coffee.jpg");
+  background-image: url("images/yeh-xintong-coffee.jpg");
   background-position: cover;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -44,7 +44,9 @@ a:hover {
   width: 60%;
   height: 60%; 
   transform: scale(1.1);
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 } 
 a:active {
 color: white;
@@ -62,10 +64,10 @@ color:rgb(238, 93, 93);
 }
 /* text content*/
 .text {
-  margin: auto;
+  
   background-color:rgb(39, 39, 39);
   border-top:solid 10px rgb(238, 93, 93);
-  
+  padding-bottom: 2em;
 }
 
 .text h1 {
