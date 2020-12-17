@@ -6,6 +6,8 @@ const express = require("express");
 const app = express();
 // Middleware
 app.use(express.static(path.join(__dirname, "public")));
+
+
 //This is to show an error message "404: file not found" if a person inputs an endpoint that hasn't been specified here
 app.use(function(req, res, next) {
   res.status(404);

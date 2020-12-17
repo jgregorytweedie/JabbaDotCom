@@ -1,0 +1,162 @@
+html {
+  height:100vh;
+  margin: 0;
+}
+
+body {
+
+  background-image: url("images/danielle\ MacInnes-coffee.jpg");
+  background-position: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0;
+  
+}
+
+/* this is the header of the website, this will appear on every part of the site.*/
+header {
+  padding-bottom: 3em;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em;
+ 
+  margin: 0;
+  background-color:rgb(39, 39, 39);
+}
+
+nav ul li {
+  padding: 1em;
+}
+
+a  {
+  text-decoration: none;
+  color: white;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  transition: all .4s;
+}
+a:hover {
+  color:rgb(238, 93, 93);
+  width: 60%;
+  height: 60%; 
+  transform: scale(1.1);
+
+} 
+a:active {
+color: white;
+}
+
+.java-logo{
+  color: white;
+  
+}
+.nav-logo {
+  color: white;
+}
+
+.hyperlink {
+  text-decoration: none;
+  color: white;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  transition: all .4s;
+}
+
+.hyperlink:hover {
+  color: rgb(238, 93, 93);
+  width: 60%;
+  height: 60%;
+  transform: scale(.3);
+}
+
+.hyperlink:active {
+  color: white;
+}
+/* Text container*/
+.text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vw;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.text p {
+  border-top:solid 10px rgb(238, 93, 93);
+  background-color:rgb(39, 39, 39);
+  padding: 2em;
+}
+
+.programming-text {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: 5vw;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.programming-text p {
+  border-top: solid 10px rgb(103, 93, 238);
+  background-color:rgb(39, 39, 39);
+  padding: 2em;
+}
+
+.chevron-arrow {
+  
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotateX(40deg);
+  animation: chevron-arrow 2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes chevron-arrow {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(50deg);
+  };
+};
+.footer-global {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  list-style-type: none;
+  text-decoration: none;
+  
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 90px;
+
+  background-color:rgb(39, 39, 39);
+  
+}
+.footer-ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 2em;
+}
+
+.footer-ul li {
+  padding: 2em;
+}

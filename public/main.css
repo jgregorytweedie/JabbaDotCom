@@ -1,0 +1,142 @@
+
+
+html {
+  height:100vh;
+  margin: 0;
+}
+
+body {
+
+  background-image: url("images/laptop-coffee.jpg");
+  background-position: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0;
+  
+}
+
+/* this is the header of the website, this will appear on every part of the site.*/
+header {
+  padding-bottom: 3em;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em;
+ 
+  margin: 0;
+  background-color:rgb(39, 39, 39);
+}
+
+nav ul li {
+  padding: 1em;
+}
+
+a  {
+  text-decoration: none;
+  color: white;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  transition: all .4s;
+}
+a:hover {
+  color:rgb(238, 93, 93);
+  width: 60%;
+  height: 60%; 
+  transform: scale(1.1);
+
+} 
+a:active {
+color: white;
+}
+
+/*This is the main text content on the page*/
+.text-container {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  color: white;
+}
+.java-logo{
+  color: white;
+  
+}
+.nav-logo {
+  color: white;
+}
+
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* both .java-download and .big-button are within a regular div tag*/
+.java-download { /* this is the list element*/
+  
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5em;
+  margin: auto;
+  
+}
+.big-button { /* this is the "a" element*/
+  background-color:rgb(238, 93, 93);
+  border-radius: 4px;
+  color: white;
+  
+  font-style: none;
+  text-decoration: none;
+  font-size: 44px;
+  font-family: 'Montserrat', sans-serif;
+
+  padding: 4px;
+  transition: all 1s ease;
+  transform: scale(1);
+  
+}
+
+.big-button:hover {
+  color: pink;
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: 3s ease alternate infinite;
+  background-size: 300% 300%;
+
+  transform: scale(1.5) perspective(1px);
+}
+
+.footer-global {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  list-style-type: none;
+  text-decoration: none;
+  
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 90px;
+
+  background-color:rgb(39, 39, 39);
+  
+}
+.footer-ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 2em;
+}
+
+.footer-ul li {
+  padding: 2em;
+}
